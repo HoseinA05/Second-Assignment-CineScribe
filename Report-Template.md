@@ -1,62 +1,49 @@
 # Project Title
 
-Simple overview of use/purpose.
+Movies & celebrities API Project
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Search your favourite movies(series) or celebrities
+and get info about them.\
+You can also search Top Actors in Movies(Series) .
+
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* org.json (For API Response Handling)
+* some Unit Test Dependencies
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* You can download the project, here on [GitHub](https://github.com/HoseinA05/Second-Assignment-CineScribe).
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* First compile each class file than 
+run the Main Class using the jvm.
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+There are some unhandled errors which I
+couldn't figure out where are they coming from.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+No contributors, Just myself!
+[@HoseinA05](https://github.com/HoseinA05)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+    * Initial Release (Base features)
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Java Try-Catch explanation](https://www.javatpoint.com/try-catch-block)
+* [Movies API Website](https://omdbapi.com/)
+* [Celebrities API Website](https://api-ninjas.com/api/celebrity)
+* [Printing Double without floating point (printf)](https://stackoverflow.com/questions/16098046/how-do-i-print-a-double-value-without-scientific-notation-using-java)
+* [exception-thrown-inside-catch-block-will-it-be-caught-again ?](https://stackoverflow.com/questions/143622/exception-thrown-inside-catch-block-will-it-be-caught-again)
