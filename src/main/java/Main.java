@@ -42,7 +42,6 @@ public class Main {
         }
     }
     public static void runMenu() {
-        // TODO
         System.out.println("\nHello and Welcome.");
         System.out.println("Write Your favourite 1-movie(series) Or 2-celebrity name and you'll get the details about it: ");
         System.out.println("(1-name) (2-name)");
@@ -78,11 +77,15 @@ public class Main {
     public static void showActorDetail(String actorName, String data){
         Actors actor = new Actors("", false);
         String actorData = data;
-        if(Objects.equals(data, "")) actorData = actor.getActorData(actorName);
+        if(Objects.equals(data, "")) {
+            System.out.println("Reading from the web");
+            actorData = actor.getActorData(actorName);
+        }
         boolean isAlive = actor.isAlive(actorData);
 
-        System.out.println("-----------------------------------------------------------");
-        System.out.printf("\n\tWorth : %.0f\n", actor.getNetWorthViaApi(actorData));
+        System.out.println("\n-----------------------------------------------------------");
+        System.out.println("\tName : " + actor.getName(actorData));
+        System.out.printf("\tWorth : %.0f\n", actor.getNetWorthViaApi(actorData));
         System.out.println("\tNationality : " + actor.getNationality(actorData));
         System.out.println("\tBirthday : " + actor.getBirthday(actorData));
         if(isAlive) System.out.println("\tis Alive : Yes");

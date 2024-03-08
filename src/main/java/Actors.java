@@ -97,4 +97,9 @@ public class Actors {
         return jsonObject.getString("birthday");
     }
 
+    public String getName(String actorInfoJson){
+        JSONObject jsonObject = new JSONObject(actorInfoJson.substring(1, actorInfoJson.length()-1));
+        return jsonObject.getString("name");
+    }
+
 }
