@@ -1,7 +1,11 @@
 
 # Second Assignment: CineScribe 🎥
 Welcome to your second assignment in the Advanced Programming course! In this project, you'll be tasked with building a Java application that acts as a simple movie aggregator, fetching data from both the IMDB and Actor API to provide information about movies and actors/actresses.
+<div align="center">
+<img src="nice.png">
 
+Grade: 100/100
+</div>
 ## Objectives ✏️
 By completing this assignment, you will:
 
